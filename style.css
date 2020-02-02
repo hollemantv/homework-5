@@ -1,0 +1,44 @@
+
+textarea {
+    resize: none;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.row {
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* make past hours gray */
+.past-hour {
+  background-color: grey;
+  color: white;
+}
+
+/* make present hours orange w/ bold font */
+.current-hour {
+  background-color: orange;
+  border-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+/* make future hours green */
+.future-hour {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+
+button {
+  background-color: lightgrey;
+  border-radius: 0px 5px 5px 0px;
+}
+
+header {
+  border-bottom-width: 10px;
+  text-color: grey;
+}
+
+button {
+  font-size: 1.5em;
+}
